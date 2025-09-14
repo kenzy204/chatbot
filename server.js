@@ -105,7 +105,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const OPENAI_KEY = process.env.OPENAI_KEY;
 
 // Chat endpoint
